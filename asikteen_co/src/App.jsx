@@ -4,11 +4,14 @@ import {Features} from "./component/Banner";
 import {DeliverySection} from "./component/Banner";
 import {Categories} from "./component/Banner";
 import {Collection} from "./component/Banner";
+import {Footer} from "./component/Banner";
 import ProductGrid from "./data/ProductGrid";
 import FooterComponent from "./component/FooterComponent";
 import {Routes, Route} from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import FaqPage from "./pages/FaqPage";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 
@@ -21,6 +24,7 @@ function App() {
     <Categories/>
     <Collection/>
     <ProductGrid/>
+    <Footer/>
     
     <Routes>
       <Route path="/" Component={HomePage}/>

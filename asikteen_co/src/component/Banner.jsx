@@ -7,8 +7,15 @@ import Money from "../assets/img/money.png";
 import chat from "../assets/img/chat.png";
 import dus from "../assets/img/dus.png";
 import men from "../assets/img/men.png";
+import fb from "../assets/img/fb.png";  
+import x from "../assets/img/x.png";
+import ig from "../assets/img/ig.png";
 import women from "../assets/img/women.png";
 import collection from "../assets/img/collection.png";
+import newcollection from "../assets/img/newcollection.png";
+import denim from "../assets/img/denim.png";
+import Carousel from 'react-bootstrap/Carousel';
+
 
 const Banner = () => {
   return (
@@ -103,11 +110,81 @@ const Categories = () => {
 
 const Collection = () => {
   return (
-    <div className="collection-compo">
-      <div className="collection-images">
+    <Carousel className="collection-compo">
+    <Carousel.Item interval={1000}>
+    <div className="collection-images">
         <img src={collection} />
       </div>
-    </div>
+    </Carousel.Item>
+    <Carousel.Item interval={500}>
+    <div className="collection-images">
+        <img src={newcollection} />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item>
+    <div className="collection-images">
+        <img src={denim} />
+      </div>
+    </Carousel.Item>
+  </Carousel>
+  );
+};
+
+
+const Footer = () => {
+  return (
+    <footer className="footer">
+      <div className="footer-content">
+        <div className="footer-left">
+          <h2>Asikteen.co</h2>
+          <p>A preloved website offers a platform for buying and selling secondhand items. Users can browse through a wide range of preloved goods, from clothing and accessories to electronics and furniture.</p>
+          <div className="social-media">
+            <img src={fb} alt="" />
+            <img src={x} alt="" />
+            <img src={ig} alt="" />
+          </div>
+          <div className="footer-right">
+          <button className="get-started-button">Get started</button>
+        </div>
+        </div>
+        
+        <div className="footer-links">
+          <div className="link-column">
+            <h3>Home</h3>
+            <ul>
+              <li>Landing Page</li>
+              <li>Recomendation</li>
+              <li>Our Product</li>
+            </ul>
+          </div>
+          <div className="link-column">
+            <h3>Category Product</h3>
+            <ul>
+              <li>Category Type</li>
+              <li>Description Category</li>
+            </ul>
+          </div>
+          <div className="link-column">
+            <h3>Cart</h3>
+            <ul>
+              <li>Cart Description</li>
+              <li>Cart Success</li>
+            </ul>
+          </div>
+          <div className="link-column">
+            <h3>Your Order</h3>
+            <ul>
+              <li>Payment Details</li>
+              <li>Confirm Payment</li>
+            </ul>
+          </div>
+        </div>
+      
+      </div>
+      <div className="footer-bottom">
+        <p>Preloved by Asikteen © 2024 All Rights Reserved</p>
+      </div>
+    </footer>
   );
 };
 
@@ -116,3 +193,4 @@ export { Features };
 export { DeliverySection };
 export { Categories };
 export { Collection };
+export { Footer };
