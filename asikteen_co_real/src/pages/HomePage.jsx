@@ -103,14 +103,14 @@ const Categories = () => {
         <img src={men} alt="Men's Category" />
         <div className="category-content">
           <h2>Men's</h2>
-          <a href="#" className="shop-now">Shop Now</a>
+          <a href="/MenPage" className="shop-now">Shop Now</a>
         </div>
       </div>
       <div className="category category2">
         <img src={women} alt="Women's Category" />
         <div className="category-content">
           <h2>Women's</h2>
-          <a href="#" className="shop-now">Shop Now</a>
+          <a href="/WomenPage" className="shop-now">Shop Now</a>
         </div>
       </div>
     </div>

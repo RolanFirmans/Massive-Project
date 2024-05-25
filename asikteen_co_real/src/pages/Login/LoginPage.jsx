@@ -8,19 +8,18 @@ const LoginPage = () => {
     };
 
     return (
-        <div>
-            <div>
-                <h2 className="h2-login">Login</h2>
-                <div>
-                    <form onSubmit={handleSubmit}>
+        <div className="cont-log">
+            <div className="login-container">
+            <h2 className="h2-login">Login</h2>
+                    <form onSubmit={handleSubmit} className="form-login">
                         <input type="text" name="email" placeholder="Email" required />
                         <input type="password" name="pass" placeholder="Password" required />
-                        <input type="submit" name="login" value="Masuk" />
+                        <input type="submit" name="login" value="Login" />
                     </form>
-                </div>
-                <h4>Belum terdaftar?</h4>
-                <p><a href="/SigninPage">Daftar Sekarang</a></p>
+                <h4 className="h4-login">NOT REGISTERED?</h4>
+                <p className="p-login"><a href="/SigninPage">Register Now</a></p>
             </div>
+              
         </div>
     );
 };
