@@ -1,0 +1,147 @@
+import React from "react";
+import "../Css/Css.css";
+import { Link } from "react-router-dom";
+import sepatu from "../assets/img/sepatu.png";
+import freeshiping from "../assets/img/freeshiping.png";
+import payment from "../assets/img/payment.png";
+import Money from "../assets/img/money.png";
+import chat from "../assets/img/chat.png";
+import dus from "../assets/img/dus.png";
+import men from "../assets/img/men.png";
+import women from "../assets/img/women.png";
+import collection from "../assets/img/collection.png";
+import newcollection from "../assets/img/newcollection.png";
+import denim from "../assets/img/denim.png";
+import NavbarComponent from "../component/NavbarComponent";
+// import ProductCard from "../component/ProductCard";
+import ProductGrid from "../data/ProductGrid";
+import Carousel from 'react-bootstrap/Carousel';
+
+const HomePage = () => {
+  return (
+    <>
+    <NavbarComponent />
+    <div>
+      <div className="ad-section">
+        <div className="content">
+          <h2>Asikeen.co</h2>
+          <h1>
+            Start Shopping <br />
+            on the website
+          </h1>
+          <p>
+            Discover the charm of preloved fashion with our handpicked selection
+            of high-quality, gently-used clothing. Embrace sustainability without
+            compromising on style. From vintage treasures to contemporary
+            classics, our collection has something for everyone. Join our
+            community of fashion lovers who are making a positive impact on the
+            planet, one stylish outfit at a time.
+          </p>
+          <Link to="/WomenPage" className="shop-btn">Shop Now </Link>
+        </div>
+        <div className="image">
+          <img src={sepatu} alt="Shoes" />
+        </div>
+      </div>
+      <Features />
+      <DeliverySection />
+      <Categories />
+      <Collection />
+      <ProductGrid />
+    </div>
+    </>
+  );
+};
+
+const Features = () => {
+  return (
+    <div className="features">
+      <div className="feature1">
+        <img src={freeshiping} alt="Free Shipping" />
+        <p>3x Free Shipping</p>
+      </div>
+      <div className="feature2">
+        <img src={payment} alt="Secure Payment" />
+        <p>Secure Payment</p>
+      </div>
+      <div className="feature3">
+        <img src={Money} alt="Money Back" />
+        <p>100% Money Back</p>
+      </div>
+      <div className="feature4">
+        <img src={chat} alt="Online Support" />
+        <p>Online Support</p>
+      </div>
+    </div>
+  );
+};
+
+const DeliverySection = () => {
+  return (
+    <section className="delivery-section">
+      <div className="delivery-content">
+        <h1>
+          ASIKTEEN.CO <br />
+          DELIVERS TO YOU
+        </h1>
+        <p>
+          Enjoy the convenience of our delivery orders for a more practical shopping experience.
+        </p>
+        <button className="shop-now-btn">Shop Now</button>
+      </div>
+      <div className="delivery-image">
+        <img src={dus} alt="Boxes" />
+      </div>
+    </section>
+  );
+};
+
+const Categories = () => {
+  return (
+    <div className="categories">
+      <div className="category category1">
+        <img src={men} alt="Men's Category" />
+        <div className="category-content">
+          <h2>Men's</h2>
+          <a href="#" className="shop-now">Shop Now</a>
+        </div>
+      </div>
+      <div className="category category2">
+        <img src={women} alt="Women's Category" />
+        <div className="category-content">
+          <h2>Women's</h2>
+          <a href="#" className="shop-now">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const Collection = () => {
+  return (
+    <Carousel className="collection-compo">
+    <Carousel.Item interval={1000}>
+    <div className="collection-images">
+        <img src={collection} />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item interval={500}>
+    <div className="collection-images">
+        <img src={newcollection} />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item>
+    <div className="collection-images">
+        <img src={denim} />
+      </div>
+    </Carousel.Item>
+  </Carousel>
+  );
+};
+
+
+export default HomePage;
+export { Features };
+export { DeliverySection };
+export { Categories };
+export { Collection };
