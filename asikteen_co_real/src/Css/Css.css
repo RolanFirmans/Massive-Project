@@ -435,3 +435,110 @@ body {
     justify-items: center;
   }
     
+
+  /*Detai Product*/
+  .wadah {
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .kartu-produk {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .gambar-produk {
+    width: 100%;
+    max-width: 75%;
+  }
+
+  .product-title {
+    font-weight: bold;
+    margin-left: 150px;
+  }
+  
+  .info-produk {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .info-pilihan {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .judul-info {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .garis {
+    margin: 1rem 0;
+    border-top: 1px solid #5E6C5B;
+  }
+  
+  .detail-produk {
+    margin-bottom: 1rem;
+  }
+  
+  .detail-produk span {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .materials {
+    display: flex;
+    font-size: 15px;
+    opacity: 85%;
+  }
+
+  .care-instructions {
+    display: flex;
+    font-size: 15px;
+    opacity: 85%;
+  }
+
+  .font-bold{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    font-weight: bold;
+  }
+
+  .font-bold span {
+    background: #5E6C5B;
+    color: white;
+    padding: 5px;
+  }
+  
+  .harga-produk {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .harga-produk span {
+    font-size: 1.25rem;
+  }
+  
+  .tombol-tambah {
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: #5E6C5B; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .tombol-tambah:hover {
+    background-color: #004b23;
+  }

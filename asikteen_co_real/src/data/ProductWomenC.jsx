@@ -35,7 +35,10 @@ const products = [
       title: 'Thrift Hoodie',
       price: '70.000',
       oldPrice: '79.000',
-      category: 'Clothes'
+      category: 'Clothes',
+      size: 'L',
+      materials: 'Cotton Fleece',
+      careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
     },
     {
       id: 2,
