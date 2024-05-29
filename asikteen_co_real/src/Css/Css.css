@@ -269,6 +269,12 @@ body {
 
 /*  Card */
 
+  .product-card-display h4 {
+    font-size: 36px;
+    font-weight: 600;
+    padding-left: 120px;
+  }
+
   .product-card {
     background-color: #f5f5f5;
     border-radius: 8px;
@@ -302,6 +308,7 @@ body {
   }
   
   .view-button {
+    text-decoration: none;
     background-color: #5E6C5B;
     color: white;
     border: none;
