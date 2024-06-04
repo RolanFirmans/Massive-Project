@@ -33,7 +33,7 @@ const products = [
       id: 1,
       image: ThriftHoodie,
       title: 'Thrift Hoodie',
-      price: '70.000',
+      price: '70000',
       oldPrice: '79.000',
       category: 'Clothes',
       size: 'L',

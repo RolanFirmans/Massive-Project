@@ -74,8 +74,8 @@ const CartPage = () => {
                     <p>Total (inc. 10k Ongkir) - Rp. {totalPriceWithShipping.toLocaleString('id-ID')}</p>
                 </div>
                 <div className="div-konten">
-                    <button className="tombolC" onClick={() => alert('Continue Shopping')}>Continue Shopping</button>
-                    <button className="tombol" onClick={() => alert('Checkout')}>Checkout</button>
+                    <Link to="/DetailPage" className="tombolC">Continue Shopping</Link>
+                    <Link to="/TransactionPage" className="Checkout">Checkout</Link>
                 </div>
             </div>
         </>
