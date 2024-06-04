@@ -37,7 +37,7 @@ const HomePage = () => {
             community of fashion lovers who are making a positive impact on the
             planet, one stylish outfit at a time.
           </p>
-          <Link to="/WomenPage" className="shop-btn">Shop Now </Link>
+          <Link Linkto="/WomenPage" className="shop-btn">Shop Now </Link>
         </div>
         <div className="image">
           <img src={sepatu} alt="Shoes" />
