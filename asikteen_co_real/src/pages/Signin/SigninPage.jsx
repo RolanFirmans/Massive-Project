@@ -57,11 +57,11 @@ const SigninPage = () => {
             <div className="register-container">
                 <h2 className="h2-register">Register</h2>
                 <form onSubmit={handleSubmit} className="form-register">
-                    <h3>Informasi Pribadi</h3>
+                    <h3>Personal Information</h3>
                     <input
                         type="text"
                         name="namalengkap"
-                        placeholder="Nama Lengkap"
+                        placeholder="Full Name"
                         value={namalengkap}
                         onChange={(e) => setName(e.target.value)}
                         required
@@ -69,7 +69,7 @@ const SigninPage = () => {
                     <input
                         type="text"
                         name="notelp"
-                        placeholder="Nomor Telepon"
+                        placeholder="Phone Number"
                         value={notelp}
                         onChange={(e) => setPhone(e.target.value)}
                         required
@@ -77,12 +77,12 @@ const SigninPage = () => {
                     <input
                         type="text"
                         name="alamat"
-                        placeholder="Alamat"
+                        placeholder="Address"
                         value={alamat}
                         onChange={(e) => setAddress(e.target.value)}
                         required
                     />
-                    <h3>Informasi Login</h3>
+                    <h3>Login Information</h3>
                     <input
                         type="text"
                         name="username"
@@ -99,11 +99,11 @@ const SigninPage = () => {
                         onChange={(e) => setPassword(e.target.value)}
                         required
                     />
-                    <h3>BANK</h3>
+                    <h3>Bank Settings</h3>
                     <input
                         type="text"
                         name="usernamebank"
-                        placeholder="Nama Bank"
+                        placeholder="Bank Name"
                         value={usernamebank}
                         onChange={(e) => setBankName(e.target.value)}
                         required
@@ -111,7 +111,7 @@ const SigninPage = () => {
                     <input
                         type="text"
                         name="namabank"
-                        placeholder="Nama Akun Bank"
+                        placeholder="Your Account Name"
                         value={namabank}
                         onChange={(e) => setAccountName(e.target.value)}
                         required
@@ -119,7 +119,7 @@ const SigninPage = () => {
                     <input
                         type="text"
                         name="nomorrekening"
-                        placeholder="Nomor Rekening"
+                        placeholder="Account Number"
                         value={nomorrekening}
                         onChange={(e) => setAccountNumber(e.target.value)}
                         required
