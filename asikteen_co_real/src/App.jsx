@@ -12,6 +12,13 @@ import TransactionPage from "./pages/TransactionPage";
 import DetailPageWrapper from "./component/DetailPageWrapper";
 import ProductListPage from "./component/ProductListPage";
 import BankList from "./component/BankList";
+import AdminDashboardPage from "./Admin/AdminDashboardPage";
+import KelolaPesanan from "./Admin/KelolaPesanan";
+import KategoriPage from "./Admin/KategoriPage";
+import DaftarProduk from "./Admin/DaftarProduk";
+import KelolaPembayaran from "./Admin/KelolaPembayaran"
+import DaftarPelanggan from "./Admin/DaftarPelanggan"
+import DaftarStaff from "./Admin/DaftarStaff"
 
 
 
@@ -33,6 +40,13 @@ function App() {
     <Route path="/" component={BankList} />
     <Route path="/product/:id" component={DetailPage} />
     <Route path="/" component={ProductListPage} />
+    <Route path="/AdminDashboardPage" element={<AdminDashboardPage />} />
+    <Route path="/KelolaPesanan" element={<KelolaPesanan />} />
+    <Route path="/KategoriPage" element={<KategoriPage />} />
+    <Route path="/KelolaPembayaran" element={<KelolaPembayaran />} />
+    <Route path="/DaftarProduk" element={<DaftarProduk />} />
+    <Route path="/DaftarPelanggan" element={<DaftarPelanggan />} />
+    <Route path="/DaftarStaff" element={<DaftarStaff />} />
     </Routes>
 
 
