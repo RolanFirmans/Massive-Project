@@ -124,7 +124,7 @@ const SigninPage = () => {
                         onChange={(e) => setAccountNumber(e.target.value)}
                         required
                     />
-                    <input type="submit" name="register" value="Register" />
+                    <input type="submit" class="submit-register" name="register" value="Register" />
                 </form>
                 <p className="p-register"><a href="/LoginPage">Cancel</a></p>
             </div>

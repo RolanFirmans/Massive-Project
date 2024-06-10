@@ -46,7 +46,7 @@ const LoginPage = () => {
                         onChange={(e) => setPassword(e.target.value)}
                         required
                     />
-                    <input type="submit" name="login" value="Login" />
+                    <input type="submit" class="submit-login" name="login" value="Login" />
                 </form>
                 <h4 className="h4-login">NOT REGISTERED?</h4>
                 <p className="p-login"><a href="/SigninPage">Register Now</a></p>
