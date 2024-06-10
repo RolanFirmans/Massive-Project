@@ -9,6 +9,9 @@ import chat from "../assets/img/chat.png";
 import dus from "../assets/img/dus.png";
 import men from "../assets/img/men.png";
 import women from "../assets/img/women.png";
+import fb from "../assets/img/fb.png";  
+import x from "../assets/img/x.png";
+import ig from "../assets/img/ig.png";
 import collection from "../assets/img/collection.png";
 import newcollection from "../assets/img/newcollection.png";
 import denim from "../assets/img/denim.png";
@@ -48,6 +51,7 @@ const HomePage = () => {
       <Categories />
       <Collection />
       <ProductGrid />
+      <Footer/>
     </div>
     </>
   );
@@ -136,6 +140,63 @@ const Collection = () => {
       </div>
     </Carousel.Item>
   </Carousel>
+  );
+};
+
+const Footer = () => {
+  return (
+    <footer className="footer">
+      <div className="footer-content">
+        <div className="footer-left">
+          <h2>Asikteen.co</h2>
+          <p>A preloved website offers a platform for buying and selling secondhand items. Users can browse through a wide range of preloved goods, from clothing and accessories to electronics and furniture.</p>
+          <div className="social-media">
+            <img src={fb} alt="" />
+            <img src={x} alt="" />
+            <img src={ig} alt="" />
+          </div>
+          <div className="footer-right">
+          <button className="get-started-button">Get started</button>
+        </div>
+        </div>
+        
+        <div className="footer-links">
+          <div className="link-column">
+            <h3>Home</h3>
+            <ul>
+              <li>Landing Page</li>
+              <li>Recomendation</li>
+              <li>Our Product</li>
+            </ul>
+          </div>
+          <div className="link-column">
+            <h3>Category Product</h3>
+            <ul>
+              <li>Category Type</li>
+              <li>Description Category</li>
+            </ul>
+          </div>
+          <div className="link-column">
+            <h3>Cart</h3>
+            <ul>
+              <li>Cart Description</li>
+              <li>Cart Success</li>
+            </ul>
+          </div>
+          <div className="link-column">
+            <h3>Your Order</h3>
+            <ul>
+              <li>Payment Details</li>
+              <li>Confirm Payment</li>
+            </ul>
+          </div>
+        </div>
+      
+      </div>
+      <div className="footer-bottom">
+        <p>Preloved by Asikteen © 2024 All Rights Reserved</p>
+      </div>
+    </footer>
   );
 };
 

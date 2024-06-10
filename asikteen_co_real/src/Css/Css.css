@@ -29,7 +29,7 @@ body {
 
 .nav-list {
   list-style: none;
-  margin-top: -50px;
+  margin-top: -70px;
   display: flex;
   font-size: 16px;
   margin-right: -200px;
@@ -55,7 +55,7 @@ body {
 .btn-login {
   list-style: none;
   display: inline-block;
-  margin-top: -75px;
+  margin-top: -85px;
   text-decoration: none;
   background-color: #ffff;
   color: #000000;
@@ -73,6 +73,90 @@ body {
   }
 
 /* Navbar end */
+/* Foooter */
+ /* Footer */
+ .footer {
+  background-color: #5E6C5B;
+  color: white;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.footer-left, .footer-right {
+  flex: 1;
+}
+
+.footer-left h2 {
+  font-size: 24px;
+}
+
+.footer-left p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.social-media img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.footer-links {
+  display: flex;
+  flex: 2;
+  justify-content: space-around;
+}
+
+.link-column h3 {
+  font-size: 16px;
+  margin-bottom: 
+  10px;
+}
+
+.link-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.link-column li {
+  margin-bottom: 8px;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.get-started-button {
+  background-color: #00a800;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 70%;
+}
+
+.get-started-button:hover {
+  background-color: #007700;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 12px;
+}  
+/* Footer end */
 .ad-section {
     display: flex;
     align-items: center;
