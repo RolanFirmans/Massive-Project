@@ -10,6 +10,7 @@ const NavbarComponent = () => {
             <img src={logo} alt="Brand Logo" className="brand-logo" />
           </a>
           <ul className="nav-list">
+            <li><a href="/AdminDashBoardPage">Admin Panel</a></li>
             <li><a href="/">Home</a></li>
             <li><a href="/WomenPage">Women</a></li>
             <li><a href="/MenPage">Men</a></li>

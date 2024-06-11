@@ -41,7 +41,7 @@ const HomePageNot = () => {
             community of fashion lovers who are making a positive impact on the
             planet, one stylish outfit at a time.
           </p>
-          <Link Linkto="/LoginPage" className="shop-btn">Shop Now </Link>
+          <Link to="/LoginPage" className="shop-btn">Shop Now </Link>
         </div>
         <div className="image">
           <img src={sepatu} alt="Shoes" />
@@ -92,7 +92,7 @@ const DeliverySection = () => {
         <p>
           Enjoy the convenience of our delivery orders for a more practical shopping experience.
         </p>
-        <button className="shop-now-btn">Shop Now</button>
+        <Link to="/LoginPage" className="shop-now-btn">Shop Now</Link>
       </div>
       <div className="delivery-image">
         <img src={dus} alt="Boxes" />
