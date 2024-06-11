@@ -46,14 +46,11 @@ const WomenPage = () => {
           </div>
           <div className="product-grid">
             {filteredProducts.map(product => (
-              <ProductCard
-                key={product.id}
-                image={product.image}
-                title={product.title}
-                price={product.price}
-                oldPrice={product.oldPrice}
-              />
-            ))}
+                <ProductCard
+                  key={product.id}
+                  product={product}
+                />
+              ))}
           </div>
         </div>
       </>

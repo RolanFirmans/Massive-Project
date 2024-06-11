@@ -48,12 +48,9 @@ const MenPage = () => {
           <div className="product-grid">
             {filteredProducts.map(product => (
               <ProductCard
-                key={product.id}
-                image={product.image}
-                title={product.title}
-                price={product.price}
-                oldPrice={product.oldPrice}
-              />
+              key={product.id}
+              product={product}
+            />
             ))}
           </div>
         </div>

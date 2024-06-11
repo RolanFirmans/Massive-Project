@@ -52,7 +52,10 @@ function App() {
     <Route path="/DaftarProduk" element={<DaftarProduk />} />
     <Route path="/DaftarPelanggan" element={<DaftarPelanggan />} />
     <Route path="/DaftarStaff" element={<DaftarStaff />} />
+    <Route path="/detail/:id" element={<DetailPage />} />
+    <Route path="/detailProduct/:id" element={<DetailProduct />} />
     <Route path="/" component={Status} />
+    
     </Routes>
 
 

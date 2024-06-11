@@ -1,12 +1,15 @@
 import React from "react";
 import NavbarComponent from "../component/NavbarComponent";
-import { products } from "../data/ProductWomenC"; 
-import { Link } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import "../Css/Css.css"; 
 
 const DetailPage = () => {
-    // Ambil data produk yang diinginkan dari productWomen
-    const product = products[0]; // Misal, kita hanya mengambil produk pertama untuk contoh ini
+    const location = useLocation();
+    const { product } = location.state || {}; 
+
+    if (!product) {
+        return <div>Product not found</div>;
+    }
 
     return (
         <>

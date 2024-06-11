@@ -70,13 +70,10 @@ const products = [
         <h2>The Best Deals This Week</h2>
         <div className="product-grid">
           {products.map(product => (
-            <ProductCard
-              key={product.id}
-              image={product.image}
-              title={product.title}
-              price={product.price}
-              oldPrice={product.oldPrice}
-            />
+             <ProductCard
+             key={product.id}
+             product={product}
+           />
           ))}
         </div>
       </div>
