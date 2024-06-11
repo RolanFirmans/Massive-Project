@@ -553,12 +553,53 @@ body {
     padding: 1rem;
   }
 
+  .info-produk2 {
+    width: 100%;
+    padding: 1rem;
+  }
+
   .info-pilihan {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   
+  .info-pilihan2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -60px;
+  }
+
   .judul-info {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .judul-info2 {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .judul-info2 a {
+    text-decoration: none;
+    color: black;
+}
+
+  .judul-info3 {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .judul-info3 a {
+    text-decoration: none;
+    color: black;
+}
+
+  .judul-info4 {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
@@ -572,7 +613,15 @@ body {
   .detail-produk {
     margin-bottom: 1rem;
   }
+
+  .detail-produk2 {
+    margin-bottom: 1rem;
+  }
   
+  .detail-p {
+    margin-left: -8px;
+  }
+
   .detail-produk span {
     display: block;
     margin-bottom: 0.5rem;

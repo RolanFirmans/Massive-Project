@@ -4,7 +4,7 @@ import { products } from "../data/ProductWomenC";
 import { Link } from "react-router-dom";
 import "../Css/Css.css"; 
 
-const DetailPage = () => {
+const DetailProduct = () => {
     // Ambil data produk yang diinginkan dari productWomen
     const product = products[0]; // Misal, kita hanya mengambil produk pertama untuk contoh ini
 
@@ -18,28 +18,23 @@ const DetailPage = () => {
                             <img src={product.image} alt={product.title} className="gambar-produk" />
                             <h2 className="product-title">{product.title}</h2>
                         </div>
-                        <div className="info-produk">
-                            <div className="info-pilihan">
-                            <h2 className="judul-info">Product Information</h2>
-                            <h2 className="judul-info2"><a href="/DetailProduct">Product Details</a></h2>
+                        <div className="info-produk2">
+                            <div className="info-pilihan2">
+                            <h2 className="judul-info3"><a href="/DetailPage">Product Information</a></h2>
+                            <h2 className="judul-info4">Product Details</h2>
                             </div>
                             <hr className="garis" />
-                            <div className="detail-produk">
-                                <h4 className="font-bold">Size <span>{product.size}</span></h4>
+                            <div className="detail-produk2">
+                                <ul className="detail-p">
+                                    <li className="detail-p">Jacket lengan panjang</li>
+                                    <li className="detail-p">Ribbed high neck</li>
+                                    <li className="detail-p">Dilengkapi kantong samping</li>
+                                    <li className="detail-p">Dilengkapi kantong samping</li>
+                                    <li className="detail-p">Material : Poly suede</li>
+                                    <li className="detail-p">Warna : Black</li>
+                                </ul>
                             </div>
-                            <div className="detail-produk">
-                                <h4 className="font-bold">Materials & Care</h4>
-                                <div className="mt-2">
-                                    <div className="materials">
-                                        <span>Materials: {product.materials} </span>
-                                    </div>
-                                    <hr className="garis" />
-                                    <div className="care-instructions">
-                                        <span>Care Instructions: {product.careinstructions}</span>
-                                    </div>
-                                    <hr className="garis" />
-                                </div>
-                            </div>
+                            
                             <div className="harga-produk">
                                 <span>Price</span>
                                 <span> Rp.{product.price}</span>
@@ -53,4 +48,4 @@ const DetailPage = () => {
     );
 };
 
-export default DetailPage;
+export default DetailProduct;

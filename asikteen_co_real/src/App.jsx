@@ -8,6 +8,7 @@ import MenPage from "./pages/MenPage";
 import WomenPage from "./pages/WomenPage";
 import YourOrder from "./pages/YourOrder";
 import DetailPage from "./pages/DetailPage";
+import DetailProduct from "./pages/DetailProduct";
 import TransactionPage from "./pages/TransactionPage";
 import DetailPageWrapper from "./component/DetailPageWrapper";
 import ProductListPage from "./component/ProductListPage";
@@ -36,6 +37,7 @@ function App() {
     <Route path="/YourOrder" element={<YourOrder />} />
     <Route path="/WomenPage" element={<HomePage />} />
     <Route path="/DetailPage" element={<DetailPage />} />
+    <Route path="/DetailProduct" element={<DetailProduct />} />
     <Route path="/TransactionPage" element={<TransactionPage />} />
     <Route path="/" component={BankList} />
     <Route path="/product/:id" component={DetailPage} />
