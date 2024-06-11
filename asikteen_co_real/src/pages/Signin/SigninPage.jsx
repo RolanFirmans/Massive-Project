@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import "./Signin.css";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
 
 const SigninPage = () => {
     const [namalengkap, setName] = useState("");
     const [notelp, setPhone] = useState("");
     const [alamat, setAddress] = useState("");
+    const [email, setEmail] = useState(""); // Added email state
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [usernamebank, setBankName] = useState("");
@@ -14,42 +14,25 @@ const SigninPage = () => {
     const [nomorrekening, setAccountNumber] = useState("");
     const navigate = useNavigate();
 
-    const handleSubmit = async (event) => {
+    const handleSubmit = (event) => {
         event.preventDefault();
 
-        // Debug: Check the form values
-        console.log("Form values:", {
+        const newUser = {
             namalengkap,
             notelp,
             alamat,
+            email, // Included email in newUser
             username,
             password,
             usernamebank,
             namabank,
             nomorrekening,
-        });
+        };
 
-        try {
-            const response = await axios.post("http://localhost:8000/login", {
-                namalengkap,
-                notelp,
-                alamat,
-                username,
-                password,
-                usernamebank,
-                namabank,
-                nomorrekening,
-            });
-
-            if (response.status === 200) {
-                console.log("Registration successful:", response.data);
-                navigate("/LoginPage"); 
-            } else {
-                console.error("Registration failed");
-            }
-        } catch (error) {
-            console.error("Error submitting form:", error);
-        }
+        // Save the user data to localStorage
+        localStorage.setItem(email, JSON.stringify(newUser));
+        console.log("Registration successful");
+        navigate("/LoginPage");
     };
 
     return (
@@ -124,7 +107,7 @@ const SigninPage = () => {
                         onChange={(e) => setAccountNumber(e.target.value)}
                         required
                     />
-                    <input type="submit" class="submit-register" name="register" value="Register" />
+                    <input type="submit" className="submit-register" name="register" value="Register" />
                 </form>
                 <p className="p-register"><a href="/LoginPage">Cancel</a></p>
             </div>
