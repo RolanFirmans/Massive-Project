@@ -580,9 +580,11 @@ body {
   }
 
   .judul-info {
+    color: #5a6e4f;
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
+    
   }
 
   .judul-info2 {
@@ -590,6 +592,11 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
+    transition: .2s ease-in-out;
+  }
+
+  .judul-info2 :hover {
+    color: #5a6e4f;
   }
 
   .judul-info2 a {
@@ -602,6 +609,11 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
+    transition: .2s ease-in-out;
+  }
+
+  .judul-info3 :hover {
+    color: #5a6e4f;
   }
 
   .judul-info3 a {
@@ -610,6 +622,7 @@ body {
 }
 
   .judul-info4 {
+    color: #5a6e4f;
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 0.5rem;

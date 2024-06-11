@@ -20,6 +20,7 @@ import NavbarComponent from "../component/NavbarComponent";
 import ProductGrid from "../data/ProductGrid";
 import Carousel from 'react-bootstrap/Carousel';
 import NavbarComponentNot from "../component/NavbarComponentNot";
+import logo from "../assets/img/logo.png"
 
 const HomePageNot = () => {
   return (
