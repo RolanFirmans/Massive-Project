@@ -149,7 +149,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-left">
-          <h2>Asikteen.co</h2>
+        <img src={logo} alt="Brand Logo" className="brand-logo-foot" />
           <p>A preloved website offers a platform for buying and selling secondhand items. Users can browse through a wide range of preloved goods, from clothing and accessories to electronics and furniture.</p>
           <div className="social-media">
             <img src={fb} alt="" />
