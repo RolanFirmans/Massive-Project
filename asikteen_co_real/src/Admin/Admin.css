@@ -24,7 +24,7 @@ body {
   .nav-menu {
     display: none;
     flex-direction: column;
-    background-color: #4f5d45;
+    background-color: #5E6C5B;
     padding: 10px;
     position: absolute;
     top: 50px;
@@ -45,13 +45,14 @@ body {
   }
   
   .dropdown {
+    display: flex;
     position: relative;
   }
   
   .dropdown-content {
     display: none;
     flex-direction: column;
-    background-color: #4f5d45;
+    background-color: #5E6C5B;
     position: absolute;
     top: 0;
     left: 100%;
@@ -188,9 +189,12 @@ body {
     display: flex;
     align-items: center;
     font-size: 20px;
-    margin: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: -50px;
     color: #666;
   }
+  
   
   .entries-selector label {
     margin-right: 8px;
@@ -319,11 +323,39 @@ body {
 
   .h2Kategori{
     text-align: left;
-    margin: 40px;
+    margin-left: 127px;
+    padding-bottom: 20px;
     padding-top: 80px;
   }
 
+  .entries-selector-kat {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 127px;
+    margin-top: -20px;
+    margin-bottom: -30px;
+    color: #666;
+  }
   
+  
+  .entries-selector-kat label {
+    margin-right: 8px;
+  }
+  
+  .entries{
+    margin: 0 8px;
+    padding: 4px;
+    font-size: 14px;
+  }
+
+  .Entries{
+    border: solid 1px #6666;
+    margin: 0 8px;
+    padding: 3px 15px;
+    font-size: 14px;
+  }
+
   .add-category-button {
     display: block;
     position: absolute;
@@ -333,8 +365,8 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    left: 1020px;
-    top: 250px;
+    left: 1100px;
+    top: 220px;
   }
   
   .add-category-button:hover {
@@ -344,14 +376,14 @@ body {
   .category-table {
     overflow-x: auto;
     width: 100%;
-    margin: -80px;
+    margin: 0;
   }
   
   .category-table th,
   .category-table td {
     border: 1px solid #ddd;
     padding: 10px 10px;
-    text-align: left;
+    text-align: center;
   }
   
   .category-table th {
@@ -454,7 +486,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     left: 1150px;
-    top: 150px;
+    top: 220px;
   }
   
   .add-product-button:hover {
@@ -512,10 +544,39 @@ body {
 
   .h2Pembayaran{
     text-align: left;
-    margin: 40px;
+    margin-left: 127px;
+    margin-bottom: 30px;
     padding-top: 80px;
   }
 
+
+  .entries-selector-pay {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 127px;
+    margin-top: -20px;
+    margin-bottom: -30px;
+    color: #666;
+  }
+  
+  
+  .entries-selector-pay label {
+    margin-right: 8px;
+  }
+  
+  .entries{
+    margin: 0 8px;
+    padding: 4px;
+    font-size: 14px;
+  }
+
+  .Entries{
+    border: solid 1px #6666;
+    margin: 0 8px;
+    padding: 3px 15px;
+    font-size: 14px;
+  }
   
   .add-payment-button {
     display: block;
@@ -526,8 +587,8 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    left: 1025px;
-    top: 250px;
+    margin-left: 80px;
+    margin-top: -25px;
   }
   
   .add-payment-button:hover {
@@ -594,7 +655,7 @@ body {
   .payment-table {
     overflow-x: auto;
     width: 100%;
-    margin: -80px;
+    margin: 0;
   }
   
   .payment-table th,
@@ -630,10 +691,38 @@ body {
 
   .h2Pelanggan {
     text-align: left;
-    margin: 40px;
+    margin-left: 127px;
+    margin-bottom: 30px;
     padding-top: 80px;
   }
 
+  .entries-selector-cus {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 127px;
+    margin-top: -20px;
+    margin-bottom: -30px;
+    color: #666;
+  }
+  
+  
+  .entries-selector-cus label {
+    margin-right: 8px;
+  }
+  
+  .entries{
+    margin: 0 8px;
+    padding: 4px;
+    font-size: 14px;
+  }
+
+  .Entries{
+    border: solid 1px #6666;
+    margin: 0 8px;
+    padding: 3px 15px;
+    font-size: 14px;
+  }
   
   .add-payment-button {
     display: block;
@@ -712,7 +801,7 @@ body {
   .customer-table {
     overflow-x: auto;
     width: 100%;
-    margin: -80px;
+    margin: 0;
   }
   
   .customer-table th,
@@ -749,11 +838,40 @@ body {
 
   .h2Staff {
     text-align: left;
-    margin: 40px;
+    margin-left: 127px;
+    margin-bottom: 30px;
     padding-top: 80px;
   }
 
   
+  .entries-selector-staff {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 127px;
+    margin-top: -20px;
+    margin-bottom: -30px;
+    color: #666;
+  }
+  
+  
+  .entries-selector-staff label {
+    margin-right: 8px;
+  }
+  
+  .entries{
+    margin: 0 8px;
+    padding: 4px;
+    font-size: 14px;
+  }
+
+  .Entries{
+    border: solid 1px #6666;
+    margin: 0 8px;
+    padding: 3px 15px;
+    font-size: 14px;
+  }
+
   .add-payment-button {
     display: block;
     position: absolute;
@@ -831,7 +949,7 @@ body {
   .staff-table {
     overflow-x: auto;
     width: 100%;
-    margin: -80px;
+    margin: 0px;
   }
   
   .staff-table th,

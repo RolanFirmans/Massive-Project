@@ -24,7 +24,7 @@ const Pembayaran = () => {
     <>
     <NavbarAdmin/>
     <h2 className='h2Pembayaran'>Daftar Metode Pembayaran</h2>
-    <div className="entries-selector">
+    <div className="entries-selector-pay">
       <label htmlFor="entries-select">Show</label>
       <thead className="entries">
         <tr>

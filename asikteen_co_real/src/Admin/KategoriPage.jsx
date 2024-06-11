@@ -24,7 +24,7 @@ const Kategori = () => {
     <>
     <NavbarAdmin/>
     <h2 className='h2Kategori'>Daftar Kategori</h2>
-    <div className="entries-selector">
+    <div className="entries-selector-kat">
       <label htmlFor="entries-select">Show</label>
       <thead className="entries">
         <tr>

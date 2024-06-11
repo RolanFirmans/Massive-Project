@@ -24,7 +24,7 @@ const Staff = () => {
     <>
     <NavbarAdmin/>
     <h2 className='h2Staff'>Daftar Staff</h2>
-    <div className="entries-selector">
+    <div className="entries-selector-staff">
       <label htmlFor="entries-select">Show</label>
       <thead className="entries">
         <tr>

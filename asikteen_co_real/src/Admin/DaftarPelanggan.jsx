@@ -24,7 +24,7 @@ const Pelanggan = () => {
     <>
     <NavbarAdmin/>
     <h2 className='h2Pelanggan'>Daftar Pelanggan</h2>
-    <div className="entries-selector">
+    <div className="entries-selector-cus">
       <label htmlFor="entries-select">Show</label>
       <thead className="entries">
         <tr>
