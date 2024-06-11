@@ -11,17 +11,17 @@ const AdminDashboard = () => {
       <div className="card">
         <div className="card-iconO">👤</div>
         <div className="card-titleO">Pelanggan</div>
-        <div className="card-contentO">-</div>
+        <div className="card-contentO">3</div>
       </div>
       <div className="card">
         <div className="card-iconJ">📝</div>
         <div className="card-titleJ">Pesanan</div>
-        <div className="card-contentJ">-</div>
+        <div className="card-contentJ">3</div>
       </div>
       <div className="card">
         <div className="card-iconK">💳</div>
         <div className="card-titleK">Konfirmasi Pembayaran</div>
-        <div className="card-contentK">-</div>
+        <div className="card-contentK">3</div>
       </div>
     </div>
 

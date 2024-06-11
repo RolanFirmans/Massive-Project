@@ -97,6 +97,7 @@ body {
     display: flex;
     justify-content: space-around;
     margin: 20px 0;
+    padding-bottom: 110px;
   }
   
   .card {
@@ -115,14 +116,16 @@ body {
   }
   
   .card-titleO {
-    font-size: 18px;
+    font-size: 27px;
     font-weight: bold;
-    margin-left: -70%;
+    margin-left: -30%;
+    margin-top: -115px;
     margin-bottom: 10%;
   }
   
   .card-contentO {
-    font-size: 16px;
+    font-size: 25px;
+    font-weight: 500;
   }
   .card-iconJ {
     font-size: 30px;
@@ -132,14 +135,16 @@ body {
   }
   
   .card-titleJ {
-    font-size: 18px;
+    font-size: 27px;
     font-weight: bold;
-    margin-left: -70%;
+    margin-left: -40%;
+    margin-top: -115px;
     margin-bottom: 10%;
   }
   
   .card-contentJ {
-    font-size: 16px;
+    font-size: 25px;
+    font-weight: 500;
   }
   .card-iconK {
     font-size: 30px;
@@ -149,14 +154,16 @@ body {
   }
   
   .card-titleK {
-    font-size: 18px;
+    font-size: 27px;
     font-weight: bold;
-    margin-left: -50%;
+    margin-left: 7%;
+    margin-top: -115px;
     margin-bottom: 10%;
   }
   
   .card-contentK {
-    font-size: 16px;
+    font-size: 25px;
+    font-weight: 500;
   }
 
   .welcome-message {

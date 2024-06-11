@@ -28,7 +28,7 @@ const Navbar = () => {
         </div>
         <a href="DaftarPelanggan">Kelola Pelanggan</a>
         <a href="DaftarStaff">Kelola Staff</a>
-        <a href="#">Logout</a>
+        <a href="HomePageNot">Logout</a>
       </div>
     </div>
   );
