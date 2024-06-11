@@ -21,6 +21,7 @@ import DaftarProduk from "./Admin/DaftarProduk";
 import KelolaPembayaran from "./Admin/KelolaPembayaran"
 import DaftarPelanggan from "./Admin/DaftarPelanggan"
 import DaftarStaff from "./Admin/DaftarStaff"
+import Status from "./component/Status"
 
 
 
@@ -51,6 +52,7 @@ function App() {
     <Route path="/DaftarProduk" element={<DaftarProduk />} />
     <Route path="/DaftarPelanggan" element={<DaftarPelanggan />} />
     <Route path="/DaftarStaff" element={<DaftarStaff />} />
+    <Route path="/" component={Status} />
     </Routes>
 
 

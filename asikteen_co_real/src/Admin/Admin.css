@@ -248,26 +248,20 @@ body {
     background-color: #f4f4f4;
   }
   
+  .sel-status {
+    text-align: center;
+    border: 1px solid #BCBCBC;
+    padding: 8px;
+    text-align: center;
+  }
+
+
   .status {
     padding: 5px 10px;
     border-radius: 5px;
     color: white;
   }
   
-  .status-success {
-    background-color: #28a745;
-    padding: 6px 50px;
-  }
-  
-  .status-pending {
-    background-color: #ffc107;
-    padding: 6px 50px;
-  }
-  
-  .status-shipping {
-    background-color: #007bff;
-    padding: 6px 48px;
-  }
   
   .pagination {
     font-size: 14px;

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import NavbarAdmin from "./NavbarAdmin";
+import Status from '../component/Status';
 
 const orders = [
     { no: 1, name: "Sandi Haye Ragnar", date: "17-12-2023", total: "Rp.80.000", status: "Success" },
@@ -60,10 +61,8 @@ const KelolaPesanan = () => {
                 <td className="sel">{order.name}</td>
                 <td className="sel">{order.date}</td>
                 <td className="sel">{order.total}</td>
-                <td className="sel">
-                  <span className={`status ${statusClasses[order.status]}`}>
-                    {order.status}
-                  </span>
+                <td className="sel-status">
+                <Status />
                 </td>
               </tr>
             ))}
