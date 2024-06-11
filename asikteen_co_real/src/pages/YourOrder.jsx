@@ -61,7 +61,9 @@ const YourOrderPage = () => {
                 </table>
                 <div className="div-konten-konfirmasi">
                   <p>Please Confirm Your Payment by Contact Us On WhatsApp</p>
-                  <Link to="/" className="tombolW">Confirm Payment to WhatsApp <span><img src={wa} /></span></Link>
+                  <a href="https://wa.me/6281311189434" className="tombolW" target="_blank" rel="noopener noreferrer">
+                        Confirm Payment to WhatsApp <span><img src={wa} alt="WhatsApp" /></span>
+                  </a>
                 </div>
             </div>
         </>
