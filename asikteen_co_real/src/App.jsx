@@ -1,4 +1,5 @@
 import HomePage from "./pages/HomePage";
+import HomePageNot from "./pages/HomePageNot"
 import FooterComponent from "./component/FooterComponent";
 import {Routes, Route} from "react-router-dom";
 import LoginPage from "./pages/Login/LoginPage";
@@ -29,6 +30,7 @@ function App() {
     
     <Routes>
     <Route path="/" element={<HomePage />} />
+    <Route path="/HomePageNot" element={<HomePageNot />} />
     <Route path="/LoginPage" element={<LoginPage />} />
     <Route path="/SigninPage" element={<SigninPage />} />
     <Route path="/CartPage" element={<CartPage />} />

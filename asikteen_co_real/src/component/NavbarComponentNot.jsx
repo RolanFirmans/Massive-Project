@@ -1,7 +1,7 @@
 import {Navbar, Container, Nav} from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../assets/img/logo.png"
-const NavbarComponent = () => {
+const NavbarComponentNot = () => {
   return (
     <header>
       <nav className="navbar">
@@ -10,13 +10,13 @@ const NavbarComponent = () => {
             <img src={logo} alt="Brand Logo" className="brand-logo" />
           </a>
           <ul className="nav-list">
-            <li><a href="/">Home</a></li>
-            <li><a href="/WomenPage">Women</a></li>
-            <li><a href="/MenPage">Men</a></li>
-            <li><a href="/CartPage">Cart</a></li>
-            <li><a href="/YourOrder">Your Order</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="/LoginPage">Women</a></li>
+            <li><a href="/LoginPage">Men</a></li>
+            <li><a href="/LoginPage">Cart</a></li>
+            <li><a href="/LoginPage">Your Order</a></li>
           </ul>
-          <Link to="/LoginPage" className="btn-login">Logout</Link>
+          <Link to="/LoginPage" className="btn-login">Login</Link>
         </div>
       </nav>
     </header>
@@ -24,4 +24,4 @@ const NavbarComponent = () => {
 }
 
 
-export default NavbarComponent
+export default NavbarComponentNot

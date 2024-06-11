@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Login.css";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 
 const LoginPage = () => {
     const [email, setEmail] = useState("");
@@ -46,7 +46,7 @@ const LoginPage = () => {
                         onChange={(e) => setPassword(e.target.value)}
                         required
                     />
-                    <input type="submit" className="submit-login" name="login" value="Login" />
+                    <NavLink to="/" className="login-btn">Login</NavLink>
                 </form>
                 <h4 className="h4-login">NOT REGISTERED?</h4>
                 <p className="p-login"><Link to="/SigninPage">Register Now</Link></p>
