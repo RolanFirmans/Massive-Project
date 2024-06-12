@@ -53,7 +53,8 @@ const products = [
       category: 'Shoes',
       size: '41',
       materials: 'Made from premium canvas materials',
-      careinstructions: 'Use a gentle detergent, do not use bleach'
+      careinstructions: 'Use a gentle detergent, do not use bleach',
+      detail: ''
     },
     {
       id: 2,

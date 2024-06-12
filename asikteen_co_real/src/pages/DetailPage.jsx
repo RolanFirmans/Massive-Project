@@ -24,7 +24,7 @@ const DetailPage = () => {
                         <div className="info-produk">
                             <div className="info-pilihan">
                             <h2 className="judul-info">Product Information</h2>
-                            <h2 className="judul-info2"><a href="/DetailProduct">Product Details</a></h2>
+                            <h2 className="judul-info2"><Link to={`/detailProduct/${product.id}`} state={{ product }}> Product Detail</Link></h2>
                             </div>
                             <hr className="garis" />
                             <div className="detail-produk">

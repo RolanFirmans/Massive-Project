@@ -28,13 +28,7 @@ const DetailProduct = () => {
                             </div>
                             <hr className="garis" />
                             <div className="detail-produk2">
-                                <ul className="detail-p">
-                                    <li className="detail-p">Jacket lengan panjang</li>
-                                    <li className="detail-p">Ribbed high neck</li>
-                                    <li className="detail-p">Dilengkapi kantong samping</li>
-                                    <li className="detail-p">Material: Poly suede</li>
-                                    <li className="detail-p">Warna: Black</li>
-                                </ul>
+                                <span>Detail: {product.detail}</span>
                             </div>
                             <div className="harga-produk">
                                 <span>Price</span>
