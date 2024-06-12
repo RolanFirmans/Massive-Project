@@ -638,6 +638,9 @@ body {
   }
 
   .detail-produk2 {
+    display: flex;
+    font-size: 15px;
+    opacity: 85%;
     margin-bottom: 1rem;
     color: #000;
   }
@@ -686,6 +689,23 @@ body {
   }
   
   .tombol-tambah {
+    gap: 15px;
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: #5E6C5B; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+  .tombol-tambah:hover {
+    background-color: #004b23;
+  }
+
+  .tombol-kembali {
+    margin-right: 15px;
     padding: 5px 20px;
     text-decoration: none;
     background-color: #5E6C5B; 
@@ -696,7 +716,7 @@ body {
     border-radius: 5px;
   }
   
-  .tombol-tambah:hover {
+  .tombol-kembali:hover {
     background-color: #004b23;
   }
 

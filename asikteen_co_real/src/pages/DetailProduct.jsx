@@ -34,6 +34,7 @@ const DetailProduct = () => {
                                 <span>Price</span>
                                 <span> Rp.{product.price}</span>
                             </div>
+                            <Link to="/WomenPage"><button className="tombol-kembali">Back</button></Link>
                             <Link to="/CartPage"><button className="tombol-tambah">Add To Cart</button></Link>
                         </div>
                     </div>

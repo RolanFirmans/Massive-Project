@@ -54,7 +54,7 @@ const products = [
       size: '41',
       materials: 'Made from premium canvas materials',
       careinstructions: 'Use a gentle detergent, do not use bleach',
-      detail: ''
+      detail: 'Sepatu dengan kualitas terbaik dan desain stylish, nyaman digunakan dalam berbagai kondisi.'
     },
     {
       id: 2,
@@ -65,7 +65,8 @@ const products = [
       category: 'Clothes',
       size: 'L',
       materials: 'Made of high quality cotton',
-      careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
+      careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron',
+      detail: 'Baju dengan kualitas terbaik, nyaman dipakai, dan desain yang stylish.'
     },
     {
       id: 3,
@@ -76,7 +77,8 @@ const products = [
       category: 'Pants',
       size: 'L',
       materials: 'Made of high-quality cotton denim',
-      careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
+      careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron',
+      detail: 'Celana jeans dengan kualitas terbaik dan desain modern, nyaman dipakai sepanjang hari.'
     },
     {
       id: 4,
@@ -87,7 +89,8 @@ const products = [
       category: 'Clothes',
       size: 'L',
       materials: 'Made of high quality cotton',
-      careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
+      careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron',
+      detail: 'Baju dengan kualitas terbaik, nyaman dipakai, dan desain yang stylish.'
     },
     {
       id: 5,
@@ -98,7 +101,8 @@ const products = [
       category: 'Clothes',
       size: 'L',
       materials: 'Made of high quality cotton',
-      careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
+      careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron',
+      detail: 'Baju dengan kualitas terbaik, nyaman dipakai, dan desain yang stylish.'
     },
     {
       id: 6,
@@ -109,7 +113,8 @@ const products = [
       category: 'Clothes',
       size: 'L',
       materials: 'Made of high quality cotton',
-      careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
+      careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron',
+      detail: 'Baju dengan kualitas terbaik, nyaman dipakai, dan desain yang stylish, baju edisi terbatas.'
     },
     {
         id: 7,
@@ -120,7 +125,8 @@ const products = [
         category: 'Clothes',
         size: 'XL',
         materials: 'Made of high quality cotton',
-        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
+        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron',
+        detail: 'Baju dengan bahan yang menghangatkan, nyaman dipakai, dan desain yang stylish.'
       },
       {
         id: 8,
@@ -131,7 +137,8 @@ const products = [
         category: 'Clothes',
         size: 'XL',
         materials: 'Made of high quality cotton',
-        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
+        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron',
+        detail: 'Baju kemeja dengan lengan panjang, nyaman dipakai, dan desain yang stylish.'
       },
       {
         id: 9,
@@ -142,7 +149,8 @@ const products = [
         category: 'Clothes',
         size: 'XL',
         materials: 'Made of high quality cotton fleece',
-        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
+        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron',
+        detail: 'Hoodie dengan bahan tebal, nyaman dipakai, dan desain yang stylish.'
       },
       {
         id: 10,
@@ -153,7 +161,8 @@ const products = [
         category: 'Shoes',
         size: '41',
         materials: 'Made from premium canvas materials',
-        careinstructions: 'Use a gentle detergent, do not use bleach'
+        careinstructions: 'Use a gentle detergent, do not use bleach',
+        detail: 'Sepatu dengan Vans classic, nyaman dipakai, dan desain yang trendy.'
       },
       {
         id: 11,
@@ -164,7 +173,8 @@ const products = [
         category: 'Shoes',
         size: '41',
         materials: 'Made from premium canvas materials',
-        careinstructions: 'Use a gentle detergent, do not use bleach'
+        careinstructions: 'Use a gentle detergent, do not use bleach',
+        detail: 'Kombinasi warna hitam dan putih, Upper suede,tekstil, Insole tekstil, Rubber outsole, Tali depan, Round toe.'
       },
       {
         id: 12,
@@ -175,7 +185,8 @@ const products = [
         category: 'Shoes',
         size: '41',
         materials: 'Made from premium canvas materials',
-        careinstructions: 'Use a gentle detergent, do not use bleach'
+        careinstructions: 'Use a gentle detergent, do not use bleach',
+        detail: 'Kombinasi warna maroon dan tobacco, Upper suede,tekstil, Insole tekstil, Rubber outsole, Tali depan, Round toe.'
       },
       {
         id: 13,
@@ -185,8 +196,9 @@ const products = [
         oldPrice: '1.200.000',
         category: 'Shoes',
         size: '42',
-        materials: 'Made from premium canvas materials',
-        careinstructions: 'Use a gentle detergent, do not use bleach'
+        materials: 'Made from premium leather materials',
+        careinstructions: 'Use a gentle detergent, do not use bleach',
+        detail: 'Kombinasi warna putih, hitam, dan orange, Leather upper, Insole tekstil, Rubber Outsole, Tali depan, Round toe.'
       },
       {
         id: 14,
@@ -197,7 +209,8 @@ const products = [
         category: 'Shoes',
         size: '44',
         materials: 'Made from premium leather materials',
-        careinstructions: 'Use a gentle detergent, do not use bleach'
+        careinstructions: 'Use a gentle detergent, do not use bleach',
+        detail: 'Kombinasi warna hitan dan putih, Upper leather, Insole tekstil, Rubber outsole, Tali depan, Round toe.'
       },
       {
         id: 15,
@@ -208,7 +221,8 @@ const products = [
         category: 'Shoes',
         size: '37',
         materials: 'Made from premium canvas materials',
-        careinstructions: 'Use a gentle detergent, do not use bleach'
+        careinstructions: 'Use a gentle detergent, do not use bleach',
+        detail: 'Atas 60% Poliuretan + 40% Poliester, Sol 100% Phylon'
       },
       {
         id: 16,
@@ -219,7 +233,8 @@ const products = [
         category: 'Shoes',
         size: '38',
         materials: 'Made from premium canvas materials',
-        careinstructions: 'Use a gentle detergent, do not use bleach'
+        careinstructions: 'Use a gentle detergent, do not use bleach',
+        detail: 'Warna hitam, Knit upper, Insole Tekstil dengan arch fit cushioning yang nyaman, Rubber Outsole, Tali depan, Round Toe'
       },
       {
         id: 17,
@@ -230,7 +245,8 @@ const products = [
         category: 'Shoes',
         size: '37',
         materials: 'Made from premium canvas materials',
-        careinstructions: 'Use a gentle detergent, do not use bleach'
+        careinstructions: 'Use a gentle detergent, do not use bleach',
+        detail: 'Warna Khaki, Atas PVC, Sol Termoplastik Karet'
       },
       {
         id: 17  ,
@@ -241,7 +257,8 @@ const products = [
         category: 'Pants',
         size: 'L',
         materials: 'Made of high-quality cotton denim',
-        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
+        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron',
+        detail: 'Celana training dengan kualitas terbaik dan enak digunakan untuk berolahraga atau aktivitas santai.'
       },
       {
         id: 18,
@@ -252,7 +269,8 @@ const products = [
         category: 'Pants',
         size: 'L',
         materials: 'Made of high-quality cotton denim',
-        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
+        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron',
+        detail: 'Celana PDL dengan desain modern dan bahan yang nyaman, cocok untuk aktivitas sehari-hari.'
       },
       {
         id: 19,
@@ -263,7 +281,8 @@ const products = [
         category: 'Pants',
         size: 'L',
         materials: 'Made of high-quality cotton denim',
-        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
+        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron',
+        detail: 'Celana dengan desain modern dan minimalis, bahan lembut dan nyaman untuk aktivitas sehari-hari'
       },
       {
         id: 20,
@@ -274,7 +293,8 @@ const products = [
         category: 'Pants',
         size: 'M',
         materials: 'Made of high-quality cotton denim',
-        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
+        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron',
+        detail: 'Celana Jeans dengan bahan tebal dan nyaman'
       },
       {
         id: 21,
@@ -285,7 +305,8 @@ const products = [
         category: 'Pants',
         size: 'M',
         materials: 'Made of high-quality cotton denim',
-        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
+        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron',
+        detail: 'Celana cargo dengan bahan yang cukup tebal dan disertai banyak kantong'
       },
       {
         id: 22,
@@ -296,7 +317,8 @@ const products = [
         category: 'Pants',
         size: 'M',
         materials: 'Made of high-quality cotton denim',
-        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
+        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron',
+        detail: 'Celana Training dari brnad Filla dengan bahan yang berkualitas bagus'
       },
       {
         id: 23,
@@ -307,7 +329,8 @@ const products = [
         category: 'Pants',
         size: 'L',
         materials: 'Made of high-quality cotton denim',
-        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
+        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron',
+        detail: 'Celana Training dari brnad Adidas dengan bahan yang berkualitas bagus'
       },
       {
         id: 24,
@@ -318,7 +341,8 @@ const products = [
         category: 'Pants',
         size: 'M',
         materials: 'Made of high-quality cotton denim',
-        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
+        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron',
+        detail: 'Celana ankle pants dengan gaya formal dan modern, nyaman saat dipakai'
       },
       {
         id: 25,
@@ -329,7 +353,8 @@ const products = [
         category: 'Clothes',
         size: 'L',
         materials: 'Cotton Fleece',
-        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
+        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron',
+        detail: 'Hoodie dengan bahan yang tebal dan lembut'
       },
       {
         id: 26,
@@ -340,7 +365,8 @@ const products = [
         category: 'Clothes',
         size: 'L',
         materials: 'Cotton',
-        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron'
+        careinstructions: 'Use a gentle detergent, do not use bleach, low temperature iron',
+        detail: 'Baju kaos polos dengan bahan yang lumayan tebal'
       },
   ];
   
