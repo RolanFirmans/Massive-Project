@@ -11,6 +11,9 @@ const statusRoutes = require("./routes/statusRoutes");
 const loginRoutes = require("./routes/loginRoutes");
 const pembayaranRoutes = require("./routes/pembayaranRoutes");
 
+
+const routerAPI = require("./routes/index");
+
 app.use("/photos", express.static('public'));
 app.get("/", (req, res) => {
   res.send("Asikteen Company");
@@ -48,6 +51,8 @@ app.use("/detail", detailRoutes);
 app.use("/status", statusRoutes);
 app.use("/login", loginRoutes);
 app.use("/pembayaran", pembayaranRoutes);
+
+app.use(routerAPI);
 
 app.listen(port, () => {
   console.log(`Server has been running in http://localhost:${port}`);

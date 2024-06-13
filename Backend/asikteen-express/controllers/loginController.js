@@ -1,16 +1,37 @@
 const db = require('../config/database')
-async function getAllLogin (req, res)  {
+const getAllLogin = async (req, res) => {
     try {
-        const [results, fields] = await db.query("SELECT * FROM login")
+        const [results] = await db.query("SELECT * FROM login");
+        res.status(200).json({
+            payload: {
+                message: "berhasil mengambil semua data user",
+                datas: results,
+            },
+        });
+    } catch (error) {
+        console.log(error);
+    }
+};
 
-        console.log(results)
-        console.log(fields)
-        res.json(results)
+const addUser = async (req, res) => {
+    try {
+        const { namaLengkap, email, password, notelp, alamat, usernamebank, namabank, nomorrekening } = req.body;
+        const [results] = await db.query(
+            `INSERT INTO login (namaLengkap, email, password, notelp, alamat, usernamebank, namabank, nomorrekening) VALUES ('${namaLengkap}', '${email}', '${password}', '${notelp}', '${alamat}', '${usernamebank}', '${namabank}', '${nomorrekening}')`
+        );
+        console.log(results);
+
+        res.status(201).json({
+            payload: {
+                message: "berhasil menambah data user",
+                datas: results,
+            },
+        });
     }catch (error) {
-        console.log(error)
+        console.log(error);
     }
 }
 
 module.exports = {
-    getAllLogin
+    getAllLogin, addUser
 }
